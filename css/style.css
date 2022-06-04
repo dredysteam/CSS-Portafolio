@@ -1,0 +1,105 @@
+/*
+-----  01 TYPHOGAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weigths:
+Default: 400
+
+- Line heights:
+Default: 1
+
+- SPACING SYST (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-----  02 COLORS
+
+- Pimary : #e67e22
+- Tints: #fdf2e9;
+- Shades:
+- Accents:
+- Greys:
+#555
+#333
+
+--- 05 SHADOWS
+
+--- 06 BORDER- RADIUS
+
+--- 07 WHITESPACE
+
+*/
+
+* {
+  /* 1 */
+  padding: 0;
+  /* 1 */
+  margin: 0;
+  /* 1 */
+  box-sizing: border-box;
+}
+
+html {
+  /* 1 */
+  font-size: 62.5%;
+}
+
+body {
+  /* 1 */
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1;
+  /* 1 */
+  font-weight: 400;
+  /* 1 */
+  color: #555;
+}
+
+/* Hero Section */
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem;
+}
+.hero {
+  /* 2 */
+  display: grid;
+  /* 2 */
+  grid-template-columns: 1fr 1fr;
+  /* 2 */
+  max-width: 130rem;
+  /* 2 */
+  gap: 9.6rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.hero-text-box {
+  /* 2 */
+  grid-column: 1/2;
+}
+
+.hero-img-box {
+  /* 2 */
+  grid-column: 2/3;
+}
+.hero-img {
+  /* 2 */
+  width: 100%;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
