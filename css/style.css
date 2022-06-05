@@ -16,8 +16,8 @@ Default: 1
 -----  02 COLORS
 
 - Pimary : #e67e22
-- Tints: #fdf2e9;
-- Shades:
+- Tints: #fdf2e9
+- Shades:#cf711f
 - Accents:
 - Greys:
 #555
@@ -46,8 +46,8 @@ html {
 }
 
 body {
-  /* 1 */
-  font-family: sans-serif;
+  /* 1 */ /* 4 */
+  font-family: "Rubik", sans-serif;
   /* 1 */
   line-height: 1;
   /* 1 */
@@ -133,6 +133,8 @@ body {
   /* Put transition on original "state" */
   /* 3 */
   transition: background-color 0.3s;
+  /* 4 */
+  font-weight: 600;
 }
 
 .btn--full:link,
@@ -169,4 +171,51 @@ body {
 .margin-rigjt-sm {
   /* 3 */
   margin-right: 1.6rem;
+}
+
+.delivered-meals {
+  /* 4 */
+  display: flex;
+  /* 4 */
+  align-items: center;
+  /* 4 */
+  gap: 1.6rem;
+  /* 4 */
+  margin-top: 8rem;
+}
+
+.delivered-imgs {
+  /* 4 */
+  display: flex;
+}
+
+.delivered-imgs img {
+  /* 4 */
+  height: 4.8rem;
+  /* 4 */
+  width: 4.8rem;
+  /* 4 */
+  border-radius: 50%;
+  /* 4 */
+  margin-right: -1.6rem;
+  /* 4 */
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+  /* 4 */
+  margin: 0;
+}
+.delivered-text {
+  /* 4 */
+  font-size: 1.8rem;
+  /* 4 */
+  font-weight: 600;
+}
+
+.delivered-text span {
+  /* 4 */
+  color: #cf711f;
+  /* 4 */
+  font-weight: 700;
 }
