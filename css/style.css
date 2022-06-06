@@ -6,9 +6,14 @@
 
 - Font weigths:
 Default: 400
+Medium: 500
+Semi-bold:600
+Bold:700
 
 - Line heights:
 Default: 1
+Small: 1.05
+Paragraph default : 1.6
 
 - SPACING SYST (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -26,6 +31,8 @@ Default: 1
 --- 05 SHADOWS
 
 --- 06 BORDER- RADIUS
+
+Default : 9px
 
 --- 07 WHITESPACE
 
@@ -150,6 +157,60 @@ body {
 .logo {
   /* 5 */
   height: 2.2rem;
+}
+
+/************************/
+/* NAVIGATION */
+/************************/
+.main-nav-list {
+  /* 6 */
+  display: flex;
+  /* 6 */
+  list-style: none;
+  /* 6 */
+  gap: 3.2rem;
+  /* 6 */
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  /* 6 */
+  display: inline-block;
+  /* 6 */
+  text-decoration: none;
+  /* 6 */
+  color: #333;
+  /* 6 */
+  font-weight: 500;
+  /* 6 */
+  font-size: 1.8rem;
+  /* 6 */
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  /* 6 */
+  color: #e67e22;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  /* 6 */
+  padding: 1.2rem 2.4rem;
+  /* 6 */
+  border-radius: 9px;
+  /* 6 */
+  color: #fff;
+  /* 6 */
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  /* 6 */
+  background-color: #cf711f;
 }
 /************************/
 /* HERO SECTION */
